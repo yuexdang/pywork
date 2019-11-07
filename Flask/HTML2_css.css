@@ -1,0 +1,33 @@
+#h2title1{
+    color: red;
+    size: 10cm;
+    text-align: center;
+    background-color: darkkhaki;
+    background-size: 70cm;
+}
+
+#h2title2{
+    color: darkorange;
+    size: 5cm;
+    text-align: center;
+    background-color: darkslategray;
+    background-size: 50cm;
+}
+
+#form1{
+    text-align: center;
+
+}
+
+body{
+    background-image: url('login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
+    background-position: center center；
+}
+
+.id{
+    size: 4cm;
+    text-align: center;
+    background-position: center center；
+}

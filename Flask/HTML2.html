@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link href="HTML2_css.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1 id="h2title1">警告!</h1>
+    <h2 id="h2title2">禁止未满十八嵗用户注册</h2>
+
+    <form action = "http://localhost:5000/login" method="GET" id="form1">
+        用户名:
+        <input type="text" name="name">
+        <br><br>
+        密  码: 
+        <input type="password" name="password">
+        <br>
+        <br>
+        <input type="submit" value="登录">
+    </form>
+
+    <p class='id'>没有账户?</p>
+    <div style="text-align:center;">
+        <a href="registration.html">立即注册!</a>
+    </div>
+</body>
+</html>

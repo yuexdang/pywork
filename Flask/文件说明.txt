@@ -1,0 +1,13 @@
+HTML1：主页
+HTML2：登录页
+registration:注册页
+
+三个css配置分别为三个html的配置文件
+
+flask主页：flask后台
+
+used.txt：已注册过的用户，格式‘name ： password’
+
+userid.txt：注册页收集用户的身份证号，格式‘name ： idnum’
+
+usertext.txt：注册页收集用户的姓名与密码，格式‘name ： password’（需要手动复制进入used.txt）

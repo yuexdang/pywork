@@ -1,0 +1,14 @@
+.title{
+    size: 500px;
+    color: blue;
+    background-color: gold;
+    height: 60px;
+    text-align: center; 
+}
+
+body{
+    background-image: url('reg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
+    background-position: center center；
+}

@@ -1,0 +1,27 @@
+#content{
+    color: rgb(255, 0, 0);
+    background-color: rgba(31, 7, 31, 0.705);
+    height: 50px;
+    text-align:center
+}
+
+body{
+    background-image: url('content1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: center center；
+}
+
+#jpg1{
+    size: 50%;
+    height: 50%;
+    text-align: center;
+    vertical-align:middle;
+    float: right;
+    opacity: 0.8;
+}
+
+#kdcode{
+    width: 10%;
+    height:10%;
+}

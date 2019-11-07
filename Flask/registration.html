@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页</title>
+    <link href="registration_css.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <h1 class="title">注册成为新用户吧！</h1>
+
+    <form method="POST" style="text-align: center;" action = "http://localhost:5000/registration">
+        用户名:
+        <input type="text" name="newname">
+        <br><br>
+        新密码:
+        <input type="password" name="newpassword">
+        <br><br>
+        确认密码:
+        <input type="password" name="againpassword">
+        <br><br>
+        身份证号:
+        <input type="text" name="idnumber">
+        <br><br><br>
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
